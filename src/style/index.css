@@ -1,11 +1,17 @@
 .filters {
   background: white;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .filters li {
   display: inline-block;
   max-width: 80px;
   padding: 3px;
+  text-align: center;
+  margin: 5px;
 }
 .filters li label {
   display: block;
